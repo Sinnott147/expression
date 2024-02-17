@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import ExpressOfInterest from "./pages/ExpressionOfInterest";
 
 export const meta: MetaFunction = () => {
   return [
@@ -36,6 +37,8 @@ export default function Index() {
           </a>
         </li>
       </ul>
+
+      <ExpressOfInterest />
     </div>
   );
 }
